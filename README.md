@@ -192,7 +192,7 @@ DATABASE_URL=postgresql://postgres:password@localhost:5432/semantic_search
 
 GROQ_API_KEY=your_api_key
 
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-120b
 
 EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 
