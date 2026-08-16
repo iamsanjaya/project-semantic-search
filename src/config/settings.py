@@ -146,10 +146,7 @@ if CHUNK_OVERLAP >= CHUNK_SIZE:
 
 GROQ_API_KEY: str = get_required_env("GROQ_API_KEY")
 
-GROQ_MODEL: str = os.getenv(
-    "GROQ_MODEL",
-    "llama-3.3-70b-versatile",
-).strip()
+GROQ_MODEL: str = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b").strip()
 
 GROQ_TIMEOUT: int = get_int_env(
     "GROQ_TIMEOUT",
